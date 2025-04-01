@@ -11,11 +11,11 @@ const occasion = "The Ice Age";
 
 //create the story
 console.log("---Funny Story---"); 
-console.log("occassion" + "has character seeing" + "object"); 
+console.log(character + " has character seeing " " a shiny rock ");  
 console.log("Sid Manny and Diego" + "with shiny rock");
 console.log("10,000 years later" + "while at the" + place);
 console.log("stage" + "The Era Tour" + "singing Fearless" + "Sid Manny and Diego");
-console.log(character + place + "singing Fearless + character);
+console.log(character + place + "singing Fearless + character");
 console.log("Taylor Swift" + "hugs" + "Sid" + "Manny" + "Diego");
 console.log(place + action + "singing Fearless"); 
 
