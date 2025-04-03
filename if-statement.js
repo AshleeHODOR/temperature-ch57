@@ -71,5 +71,101 @@ if(age>13){
     console.log("You are an adult");
 }else{
     console.log("You are a Senior");
+}else if(age=42){
+    console.log("You are the answer to life");
 }
 
+//challenges
+
+let light = prompt ("Enter your color");
+
+if(green){
+    console.log("Go!");
+}
+else if(yellow){
+    console.log("Slow");
+}
+else if(red){
+    console.log("Stop");
+}
+else {
+    console.log("Invalid please pick a color");
+}
+
+//Challenge 3
+
+let age = prompt ("Enter your age");
+let price=0;
+
+if (age>12){
+    console.log("Price=$5");
+}
+else if(age==12-18){
+    console.log("Price=$8");
+}
+else if(age<18){
+    console.log("Price=$10")
+}
+    console.log("Your ticket price is $" + price);
+}
+
+
+//Challenge 4
+//Weather outfits
+
+let usertemp = prompt ("Enter your temperature")
+
+if (>15){
+    console.log("Wear a jacket");
+}
+else if (15==25){
+    console.log("Wear a sweater");
+}
+else if (<25){
+    console.log("wear a t-shirt");
+}
+
+//SAM's code:
+
+function weatherOutfit(){
+    let tmp = prompt("Enter the temperature");
+    let outfit;
+    let p = document.getElementById("weather");
+    
+    if(tmp<15){
+        outfit="Jacket"; 
+    }else if(tmp<25){
+        outfit="sweater";
+    }else{
+        outfit="t-shirt"; 
+    }
+
+    p.innerHTML="You should wear : " + outfit;
+}
+
+
+//Switch
+
+let action = prompt("Choose an action:jump, run, attack, or defend");
+
+switch(action){
+    case "jump":
+        console.log("You jumped over an obstacle");
+        break;
+    case "run":
+        console.log("You are running fast");
+        break;
+    case "attack":
+        console.log("You attacked the enemy!");
+        break;
+    case "defend":
+        console.log("You blocked the attack");
+    default:
+        console.log("Unknown action. Try again!");
+    case "join fightclub":
+        console.log("Scream HODOR"); 
+    case "dance":
+        console.log("Tell yourself you are pretty");
+}
+
+//END of NOTES --> Class 3
