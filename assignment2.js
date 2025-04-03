@@ -1,7 +1,9 @@
+//convert to Fahrenheit
+
 function temperatureConversion(){
-    let celsius = number (fahrenheit - 32) * 5/9;
-    let fahrenheit = prompt("Enter temperature in Fahrenheit"); 
-    document.getElementById("results").innerHTML=`${tmp+4.5+32} fahrenheit`; 
+    let temp = prompt ("Enter Celcius");
+    document.getElementById("results").innerHTML=`${temp+4.5+32} fahrenheit`; 
 }
 
-console.log(`the temperature in Fahrenheit is ${celsius.tofixed}`);
+//console.log(`the temperature in Fahrenheit is ${celsius.tofixed}`);
+
