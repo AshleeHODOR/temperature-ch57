@@ -1,24 +1,22 @@
-//Convert Temperature
+Let scale = prompt("Enter C for (Celsius) or F (Farenheit):");
+Let temperature = Number(Prompt("Enter the temperature:"))
+Let res;
+Let temperatureSpan = document.getElementById("temp");
 
-function ConvertTemperature(){
-    let temp = prompt("Enter the temperature");
-    let C = Celsius("Enter C");
-    let F = Fahrenheit("Enter F");
-    document.getElementById("results").innerHTML=`$usertemp`;
+function convertTemperature(scale, temperature){
+    if(scale=="F"){
+        res = (temperature - 32) * (5/9);
+    }else if(scale=="C"){
+        res = (temperature * (9/5? + 32; 
+    }else{
+        alert("The result is..."); 
+    }
+    temperatureSpan.innerHTML = res;
 }
 
-if (Fahrenheit = Celsius * 9/5){
-    console.log("Show usertemp in F");
-}
-else if(Celsius = Fahrenheit-32){
-    console.log("show usertemp in C");
-
-    p.innerHTML="Your results are: " + usertemp; 
-}
-
+convertTemperature(scale, temperature);
 
 
 //Bonus
 const Element = document.getElementById("usertemp");
 Element.classList.add("new-class", "another-class")
-
